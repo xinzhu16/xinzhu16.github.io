@@ -15,7 +15,7 @@
 
     <!-- Stylesheet -->
 
-  <script type="module" crossorigin src="/assets/default-ytuFG_3o.js"></script>
+  <script type="module" crossorigin src="/assets/gallery--pPeviYM.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/active-cCSYlIDA.js">
   <link rel="stylesheet" crossorigin href="/assets/active-6l5Q4t0B.css">
 </head>
@@ -26,6 +26,25 @@
         <div class="loader"></div>
     </div> -->
     <!-- /Preloader -->
+
+    <!-- Top Search Form Area -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Header Area Start -->
     <header class="header-area">
@@ -53,31 +72,11 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul id="nav">
-                                    <li class="active"><a href="./index.html">主页</a></li>
-                                    <!-- <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="./index.html">- Home</a></li>
-                                            <li><a href="./about.html">- About</a></li>
-                                            <li><a href="./gallery.html">- Gallery</a></li>
-                                            <li><a href="#bottom">- Blog</a></li>
-                                            <li><a href="./single-blog.html">- Blog Details</a></li>
-                                            <li><a href="./contact.html">- Contact</a></li>
-                                            <li><a href="#">- Dropdown</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="./about.html">About</a></li> -->
+                                    <li><a href="./index.html">主页</a></li>
                                     <li><a href="#show">展示</a></li>
-                                    <li><a href="./gallery.html">图库</a></li>
+                                    <li class="active"><a href="./gallery.html">图库</a></li>
                                     <li><a href="#bottom">联系我们</a></li>
                                 </ul>
-
                                 <!-- Search Icon -->
                                 <!-- <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div> -->
                             </div>
@@ -90,12 +89,25 @@
     </header>
     <!-- Header Area End -->
 
-    <!-- Welcome Area Start -->
-    <section class="welcome-area">
-        <div class="welcome-slides owl-carousel">
+    <!-- Breadcrumb Area Start -->
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(/assets/38-tIIU3_y5.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2 class="page-title">Gallery</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html"><i class="icon_house_alt"></i> Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- Welcome Area End -->
+    <!-- Breadcrumb Area End -->
 
     <!-- Gallery Area Start -->
     <div class="alime-portfolio-area section-padding-80 clearfix" id="show">
@@ -103,13 +115,12 @@
             <div class="row">
                 <div class="col-12">
                     <!-- Projects Menu -->
-                    <div class="alime-projects-menu">
+                    <div class="alime-projects-menu wow fadeInUp" data-wow-delay="100ms">
                         <div class="portfolio-menu text-center">
                             <button class="btn active" data-filter="*">All</button>
                             <button class="btn" data-filter=".human">Human</button>
                             <button class="btn" data-filter=".nature">Nature</button>
                             <button class="btn" data-filter=".country">Country</button>
-                            <!-- <button class="btn" data-filter=".video">Video</button> -->
                         </div>
                     </div>
                 </div>
@@ -117,76 +128,20 @@
 
             <div class="row alime-portfolio">
             </div>
-
-            <div class="row">
-                <div class="col-12 text-center wow fadeInUp" data-wow-delay="700ms">
-                    <a href="./gallery.html" class="btn alime-btn btn-2 mt-15">View More</a>
-                </div>
-            </div>
         </div>
     </div>
     <!-- Gallery Area End -->
 
-    <!-- Follow Area Start -->
-    <section class="follow-area clearfix">
-        <div id="bottom" class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-heading text-center">
-                        <h2>Follow Instagram</h2>
-                        <p>@Alime_photographer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Instagram Feed Area -->
-        <div class="instragram-feed-area owl-carousel">
-            <!-- Single Instagram Item -->
-        </div>
-    </section>
-    <!-- Follow Area End -->
-
-    <!-- Footer Area Start -->
-    <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-content d-flex align-items-center justify-content-between">
-                        <!-- Copywrite Text -->
-                        <div class="copywrite-text">
-                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                        </div>
-                        <!-- Footer Logo -->
-                        <div class="footer-logo">
-                            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAAAVCAMAAADir0l9AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAP1BMVEUAAAAlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSX8YGD8YGD8YGAlJSX8YGAAAADjLKjrAAAAEnRSTlMAiO6ZEUR3ZlW7qt0izDNEIndgtr6rAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAU9JREFUOMutlFt2hSAMRTFAEFHapvOfayEJKO11La/2/ChqtnkcMOZcE5B15l/kETEYM1MRPqLgrAssqCgXsreRSw1PI9IBEfi7xJVYfkAah7jeThIFaUfkI22ChBEZi7JeVgsES1mZUD7esDkhxNqx6U81ueIqNgxI7QUPHuSns4tyszHTaS4tctdUi66g5QypRALbGHYglp+NyBrgeUTrCZIganqUooCcjmDymPamqWYx0Nac/QKZCiBDyw71TdKIarcxzVrMJB9uJ8jQ+kO9LBTr8Tr+2meuvslqzvwa6UdzCcLTUcsBGXikRSDZvoeMTcF8sD53U+7WvIrMvXDRN+urb8aDGa4ixSll6SWwI1EsUgUy0ctIDg0+gJTXkUk72LrqriNdGqprSN/m3GYfriNN7sxw6KU9HJR8bG5vIMv5x1A+T/bCn8r5PD74AS2hLj0+avbgAAAAAElFTkSuQmCC" alt=""></a>
-                        </div>
-                        <!-- Social Info -->
-                        <div class="social-info">
-                            <a href="#"><i class="ti-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="ti-twitter-alt" aria-hidden="true"></i></a>
-                            <a href="#"><i class="ti-linkedin" aria-hidden="true"></i></a>
-                            <a href="#"><i class="ti-pinterest" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer Area End -->
-
     <!-- **** All JS Files ***** -->
     <!-- jQuery 2.2.4 -->
-    <script src="./js/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!-- Popper -->
-    <script src="./js/popper.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <!-- Bootstrap -->
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- append -->
     <!-- All Plugins -->
-    <script src="./js/alime.bundle.js"></script>
+    <script src="js/alime.bundle.js"></script>
     <!-- Active -->
 
 </body>
